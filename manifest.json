@@ -1,0 +1,13 @@
+{
+    "name": "Search StackOverflow",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Search in StackOverflow for the selected text",
+    "permissions": [
+        "contextMenus"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {}
+}
